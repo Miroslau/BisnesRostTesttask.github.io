@@ -26,6 +26,10 @@ body {
     margin-bottom: 31px;
 }
 
+.new_block {
+    display: none;
+}
+
 .header__logo {
     display: flex;
     align-items: center;

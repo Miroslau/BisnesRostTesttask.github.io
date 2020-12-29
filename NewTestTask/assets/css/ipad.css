@@ -1,0 +1,150 @@
+@media(min-width: 768px) and (max-width: 1279px) {
+    .header_container {
+        flex-direction: column;
+    }
+
+    .header__logo {
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .header__navigation {
+        margin: 0 auto;
+    }
+    
+    .phone_image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .slide_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_opacity {
+        height: 100%;
+        z-index: 3;
+        position: absolute;
+    }
+
+    .section__container > h1 {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .arrow_buttons {
+        position: absolute;
+        padding-top: 20px;
+        width: 100%;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        justify-content: space-between;
+    }
+
+    .sim-slider-dots {
+        display: none;
+    }
+
+    .section_service {
+        padding-top: 220px;
+        margin: 0 auto;
+    }
+
+    .service_container > h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .service_container > h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about_container > h2 {
+        text-align: center;
+        width: 100%;
+        width: 100%;
+    }
+
+    .discription > h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discription > p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .feadeback_container {
+        flex-direction: column;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .inforamtion_contact > h1 {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .inforamtion_contact > p {
+        width: 100%;
+        font-size: 15px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .inforamtion_contact > ul {
+        padding-top: 20px;
+        justify-content: space-around;
+    }
+
+    .inforamtion_contact > ul > li > a > span {
+        font-size: 10px;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .input {
+        width: 100%;
+        height: 51px;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    form > p {
+        margin-left: 0;
+    }
+
+    textarea {
+        width: 100%;
+        height: 70px;
+        font-size: 10px;
+    }
+
+    .submit {
+        display: block;
+        float: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
